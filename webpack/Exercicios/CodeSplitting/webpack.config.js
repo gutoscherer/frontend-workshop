@@ -10,17 +10,23 @@ module.exports = {
   },
   entry: {
     app: './src/index.js',
-    print: './src/print.js'
+    print: './src/print.js',
+    another: './src/another-module.js'
   },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, "dist"),
     publicPath: '/'
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Development'
+      title: 'Code Splitting'
     })
   ]
 };

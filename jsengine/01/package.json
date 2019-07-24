@@ -1,27 +1,25 @@
 {
-  "name": "assetmanagement",
+  "name": "01",
   "version": "1.0.0",
-  "description": "If you've been following the guides from the start, you will now have a small project that shows \"Hello webpack\". Now let's try to incorporate some other assets, like images, to see how they can be handled.",
+  "description": "Esse exercício tem como objetivo buscar dados de uma fonte externa e apresentar esses dados na tela.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "server": "node server.js",
     "build": "webpack"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
-    "express": "^4.17.1",
+    "file-loader": "^4.1.0",
     "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6",
-    "webpack-dev-middleware": "^3.7.0",
     "webpack-dev-server": "^3.7.2"
-  },
-  "dependencies": {
-    "lodash": "^4.17.15"
   }
 }

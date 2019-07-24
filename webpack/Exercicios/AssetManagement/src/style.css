@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aaargh';
+    src: url('./myfont.otf');
+    font-weight: 600;
+    font-style: bold;
+}
+
+.hello {
+    color: red;
+    background: url('./sponge.png');
+    font-family: 'Aaargh';
+}
