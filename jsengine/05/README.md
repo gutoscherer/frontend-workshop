@@ -7,6 +7,5 @@ Criação componentes reutilziavés para melhorar a visualização das informaç
 1. Utilizar TypeScript;
 2. Utilizar a apresentação desenvolvida no exercício 03 como base;
 3. Utilizar o serviço desenvolvido no exercício 04 para obtenção de dados;
-6. Apresentar uma lista de posts com o nome do usuário;
-7. Apresentar uma lista de usuários com uma lista dos titulos de seus posts;
-
+4. Apresentar uma lista de posts com o nome do usuário;
+5. Apresentar uma lista de usuários com uma lista dos titulos de seus posts;
